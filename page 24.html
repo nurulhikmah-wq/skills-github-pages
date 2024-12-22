@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: #FFFFE0;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.image-container {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="image-container">
+    <img src="https://i.imgur.com/bK1t7s3.jpg" alt="Image">
+    <div class="title">Gambar</div>
+    <div class="description">
+      Gambar ini menunjukkan sebuah rangkaian listrik tertutup dengan sumber daya berupa baterai dan beban lampu pijar. Rangkaian tersebut mampu menghantarkan arus listrik sebesar 2 ampere. Akan tetapi, dikarenakan lampu pijar pada rangkaian tersebut hanya dapat menyala jika dialiri listrik sebesar 24 volt maka dipasanglah resistor sebesar 6 Ohm untuk menurunkan tegangan dari baterai. 
+      <br>
+      <strong>Pertanyaan:</strong> Berapa besar tegangan listrik awal baterai sebelum dipasang resistor?
+      <br>
+      <strong>Penyelesaian:</strong>
+      <br>
+      Diketahui:
+      <ul>
+        <li>Voltase Akhir (V) = 24 Volt</li>
+        <li>Kuat arus listrik (I) = 2 A</li>
+        <li>Resistor (R) = 6 Ohm</li>
+      </ul>
+      <br>
+      Untuk menghitung tegangan awal baterai (V<sub>total</sub>), kita menggunakan hukum Ohm dan hukum Kirchhoff:
+      <br>
+      <strong>V<sub>total</sub> = V<sub>akhir</sub> + V<sub>resistor</sub></strong>
+      <br>
+      Kita tahu bahwa:
+      <br>
+      <strong>V<sub>resistor</sub> = I x R</strong>
+      <br>
+      Dengan substitusi nilai yang diketahui:
+      <br>
+      <strong>V<sub>resistor</sub> = 2 A x 6 Ohm = 12 Volt</strong>
+      <br>
+      Maka, tegangan awal baterai:
+      <br>
+      <strong>V<sub>total</sub> = V<sub>akhir</sub> + V<sub>resistor</sub></strong>
+      <br>
+      <strong>V<sub>total</sub> = 24 V + 12 V = 36 Volt</strong>
+      <br>
+      Jadi, tegangan listrik awal baterai sebelum dipasang resistor adalah 36 Volt.
+    </div>
+  </div>
+</div>
+</body>
+</html>

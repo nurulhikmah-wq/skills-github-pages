@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <style>
+        body {
+            background-color: #F2F2F2;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #FFF;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            width: 90%;
+            max-width: 400px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .option {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        .option:hover {
+            background-color: #F0F0F0;
+        }
+
+        .icon {
+            margin-right: 10px;
+        }
+
+        .icon-person {
+            font-size: 20px;
+        }
+
+        .icon-shield {
+            font-size: 20px;
+        }
+
+        .icon-bell {
+            font-size: 20px;
+        }
+
+        .icon-lock {
+            font-size: 20px;
+        }
+
+        .icon-credit-card {
+            font-size: 20px;
+        }
+
+        .icon-support {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Settings</h1>
+        <div class="section">
+            <div class="section-title">Account</div>
+            <div class="option">
+                <div class="icon icon-person">&#128100;</div>
+                <div>Edit Profile</div>
+            </div>
+            <div class="option">
+                <div class="icon icon-shield">&#128274;</div>
+                <div>Security</div>
+            </div>
+            <div class="option">
+                <div class="icon icon-bell">&#128276;</div>
+                <div>Notifications</div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">Payment</div>
+            <div class="option">
+                <div class="icon icon-credit-card">&#128179;</div>
+                <div>Manage Cards</div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">Support</div>
+            <div class="option">
+                <div class="icon icon-support">&#128172;</div>
+                <div>Contact Us</div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">Privacy</div>
+            <div class="option">
+                <div class="icon icon-lock">&#128274;</div>
+                <div>Privacy Settings</div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">About</div>
+            <div class="option">
+                <div class="icon">&#8505;</div>
+                <div>About Us</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
